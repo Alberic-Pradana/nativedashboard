@@ -1,0 +1,444 @@
+/* ROOT Display Class */
+
+.d-block {
+    display: block;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.d-table {
+    display: table;
+}
+
+.d-table-cell {
+    display: table-cell;
+}
+
+.d-none {
+    display: none;
+}
+
+
+/* R00T Flex Direction */
+
+/* Class untuk flex direction baris */
+.flex-row {
+    flex-direction: row;
+}
+
+/* Class untuk flex direction kolom */
+.flex-column {
+    flex-direction: column;
+}
+
+/* Class untuk flex direction baris terbalik */
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+/* Class untuk flex direction kolom terbalik */
+.flex-column-reverse {
+    flex-direction: column-reverse;
+}
+
+
+/* ROOT Class Justify Content  */
+
+/* Class untuk rata tengah secara horizontal */
+.justify-content-center {
+    justify-content: center;
+}
+
+/* Class untuk meratakan ke ujung kiri */
+.justify-content-start {
+    justify-content: flex-start;
+}
+
+/* Class untuk meratakan ke ujung kanan */
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+/* Class untuk meratakan sepanjang ruang kosong */
+.justify-content-between {
+    justify-content: space-between;
+}
+
+/* Class untuk meratakan dengan jarak yang sama di sekitar elemen */
+.justify-content-around {
+    justify-content: space-around;
+}
+
+
+/* ROOT class align items */
+
+/* Class untuk rata tengah secara vertikal */
+.align-items-center {
+    align-items: center;
+}
+
+/* Class untuk meratakan ke atas (ujung atas) */
+.align-items-start {
+    align-items: flex-start;
+}
+
+/* Class untuk meratakan ke bawah (ujung bawah) */
+.align-items-end {
+    align-items: flex-end;
+}
+
+/* Class untuk meratakan elemen di sepanjang ruang vertikal */
+.align-items-stretch {
+    align-items: stretch;
+}
+
+/* Class untuk meratakan dengan jarak yang sama di sekitar elemen vertikal */
+.align-items-baseline {
+    align-items: baseline;
+}
+
+/* ROOT Class Position */
+
+.static {
+    position: static;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.sticky {
+    position: sticky;
+}
+
+
+/* ROOT Class Top, Botom, Left, Right */
+
+.top-0 {
+    top: 0;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.right-0 {
+    right: 0;
+}
+
+
+/* ROOT Class Z Index */
+.z-index-1 {
+    z-index: 11;
+}
+
+.z-index-2 {
+    z-index: 12;
+}
+
+.z-index-3 {
+    z-index: 13;
+}
+
+.z-index-4 {
+    z-index: 14;
+}
+
+
+/* ROOT Class FONT dan Text */
+
+.tex-bold { 
+    font-weight: bold; 
+}
+
+.tex-normal { 
+    font-weight: normal; 
+}
+
+.tex-italic { 
+    font-style: italic; 
+}
+
+.tex-normal-style { 
+    font-style: normal;
+}
+
+/* Class untuk penataan teks ke kiri */
+.text-left {
+    text-align: left;
+}
+
+/* Class untuk penataan teks ke tengah */
+.text-center {
+    text-align: center;
+}
+
+/* Class untuk penataan teks ke kanan */
+.text-right {
+    text-align: right;
+}
+
+.line-height-1 { 
+    line-height: 1; 
+}
+
+.line-height-1_5 { 
+    line-height: 1.5; 
+}
+
+.line-height-2 { 
+    line-height: 2; 
+}
+
+.text-underline { 
+    text-decoration: underline; 
+}
+
+.text-decoration-none { 
+    text-decoration: none;
+}
+
+
+/* ROOT Class Width dan Height */
+
+.w-auto {
+    width: auto;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.h-auto {
+    height: auto;
+}
+
+.h-100-v {
+    height: 100vh;
+}
+
+.h-50-v {
+    height: 50vh;
+}
+
+.w-100-v {
+    width: 100vh;
+}
+
+.w-50-v {
+    width: 50vh;
+}
+
+.full-size {
+    width: 100%;
+    height: 100%;
+}
+
+/* Root Class Padding dan Margin */
+.p-0 {
+    padding: 0;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.p-3 {
+    padding: 3rem;
+}
+
+.pb-1 {
+    padding-bottom: 1rem;
+}
+
+.pb-2 {
+    padding-bottom: 2rem;
+}
+
+.pb-3 {
+    padding-bottom: 3rem;
+}
+
+.pt-1 {
+    padding-top: 1rem;
+}
+
+.pt-2 {
+    padding-top: 2rem;
+}
+
+.pt-3 {
+    padding-top: 3rem;
+}
+
+.pl-1 {
+    padding-left: 1rem;
+}
+
+.pl-2 {
+    padding-left: 2rem;
+}
+
+.pl-3 {
+    padding-left: 3rem;
+}
+
+.pr-1 {
+    padding-right: 1rem;
+}
+
+.pr-2 {
+    padding-right: 2rem;
+}
+
+.pr-3 {
+    padding-right: 3rem;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.m-1 {
+    margin: 1rem;
+}
+
+.m-2 {
+    margin: 2rem;
+}
+
+.m-3 {
+    margin: 3rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.mb-3 {
+    margin-bottom: 3rem;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mt-3 {
+    margin-top: 3rem;
+}
+
+.ml-1 {
+    margin-left: 1rem;
+}
+
+.ml-2 {
+    margin-left: 2rem;
+}
+
+.ml-3 {
+    margin-left: 3rem;
+}
+
+.mr-1 {
+    margin-right: 1rem;
+}
+
+.mr-2 {
+    margin-right: 2rem;
+}
+
+.mr-3 {
+    margin-right: 3rem;
+}
+
+/* ROOT Class Border Radius */
+.border-radius-0 {
+    border-radius: 0;
+}
+
+.border-radius-50 {
+    border-radius: 50%;
+}
+
+.border-radius-100 {
+    border-radius: 100%;
+}
+
+/* ROOT Class Cursor Type */
+.cursor-default {
+    cursor: default;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.cursor-crosshair {
+    cursor: crosshair;
+}
+
+.cursor-move {
+    cursor: move;
+}
+
+.cursor-text {
+    cursor: text;
+}
+
+.cursor-wait {
+    cursor: wait;
+}
+
+.cursor-help {
+    cursor: help;
+}
+
+.cursor-not-allowed {
+    cursor: not-allowed;
+}
