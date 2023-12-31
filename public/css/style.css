@@ -23,35 +23,35 @@
     --primary-800: #080b12;
     --primary-900: #040509;
 
-    --greenAccent-100: #dbf5ee;
-    --greenAccent-200: #b7ebde;
-    --greenAccent-300: #94e2cd;
-    --greenAccent-400: #70d8bd;
-    --greenAccent-500: #4cceac;
-    --greenAccent-600: #3da58a;
-    --greenAccent-700: #2e7c67;
-    --greenAccent-800: #1e5245;
-    --greenAccent-900: #0f2922;
+    --green-100: #dbf5ee;
+    --green-200: #b7ebde;
+    --green-300: #94e2cd;
+    --green-400: #70d8bd;
+    --green-500: #4cceac;
+    --green-600: #3da58a;
+    --green-700: #2e7c67;
+    --green-800: #1e5245;
+    --green-900: #0f2922;
 
-    --redAccent-100: #f8dcdb;
-    --redAccent-200: #f1b9b7;
-    --redAccent-300: #e99592;
-    --redAccent-400: #e2726e;
-    --redAccent-500: #db4f4a;
-    --redAccent-600: #af3f3b;
-    --redAccent-700: #832f2c;
-    --redAccent-800: #58201e;
-    --redAccent-900: #2c100f;
+    --red-100: #f8dcdb;
+    --red-200: #f1b9b7;
+    --red-300: #e99592;
+    --red-400: #e2726e;
+    --red-500: #db4f4a;
+    --red-600: #af3f3b;
+    --red-700: #832f2c;
+    --red-800: #58201e;
+    --red-900: #2c100f;
 
-    --blueAccent-100: #e1e2fe;
-    --blueAccent-200: #c3c6fd;
-    --blueAccent-300: #a4a9fc;
-    --blueAccent-400: #868dfb;
-    --blueAccent-500: #6870fa;
-    --blueAccent-600: #535ac8;
-    --blueAccent-700: #3e4396;
-    --blueAccent-800: #2a2d64;
-    --blueAccent-900: #151632;
+    --blue-100: #e1e2fe;
+    --blue-200: #c3c6fd;
+    --blue-300: #a4a9fc;
+    --blue-400: #868dfb;
+    --blue-500: #6870fa;
+    --blue-600: #535ac8;
+    --blue-700: #3e4396;
+    --blue-800: #2a2d64;
+    --blue-900: #151632;
 
     --transition: all 300ms ease;
 }
@@ -79,17 +79,10 @@ body {
     font-size: 0.88rem;
     user-select: none;
     overflow-x: hidden;
-    /* background: ; */
-    /* color: ; */
 }
 
 ::-webkit-scrollbar {
     display: none;
-}
-
-.navbar {
-    background-color: #333;
-    color: #fff;
 }
 
 .navbar-left-box {
@@ -102,7 +95,7 @@ body {
     height: 20px; 
 }
 
-.logo-image img {
+.navbar-image img {
     width: 40px; 
     height: auto; 
 }
