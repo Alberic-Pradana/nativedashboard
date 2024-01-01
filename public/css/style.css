@@ -96,7 +96,16 @@ body {
 }
 
 [type=button], [type=reset], [type=submit], button {
-    -webkit-appearance: button;
     background-color: transparent;
     background-image: none;
+}
+
+[type=button]:hover, [type=reset]:hover, [type=submit]:hover, button:hover {
+    background-color: var(--grey-300);
+    color: var(--grey-100);
+    background-image: none;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
 }
