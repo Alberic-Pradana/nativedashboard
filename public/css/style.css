@@ -142,6 +142,7 @@ body {
 [type=button], [type=reset], [type=submit], button {
     background-color: transparent;
     background-image: none;
+    cursor: pointer;
 }
 
 [type=button]:hover, [type=reset]:hover, [type=submit]:hover, button:hover {
@@ -153,10 +154,6 @@ body {
 .sidebar-menu-btn:hover {
     color: var(--gray-100);
     background-color: var(--gray-500);
-}
-
-.color-gray-500:hover {
-    color: var(--gray-100);
 }
 
 .rounded-lg {
@@ -175,4 +172,22 @@ body {
 
 .font-semibold {
     font-weight: 600;
+}
+
+.dropdown ul {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 400ms ease-in-out;
+}
+
+.dropdown.active ul {
+    max-height: 500px;
+}
+
+.border-bottom-gray-700 {
+    border-bottom: 1px solid rgb(55 65 81);
+}
+
+.theme-togler .active {
+    background-color: var(--blue-500);
 }

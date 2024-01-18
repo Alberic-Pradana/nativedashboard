@@ -1,72 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Smartschool</title>
-    <link rel="stylesheet" href="./public/css/style.css">
-    <link rel="stylesheet" href="./public/css/rootclass.css">
-</head>
-<body>
-    <nav class="navbar fixed w-full z-4 bg-gray-800 color-gray-100" id="navbar">
-        <div class="px-4 py-3">
-            <div class="d-flex justify-content-between align-items-center">
-                <div class="navbar-left-box">
-                    <div class="sidebar-btn"></div>
-                    <a class="app-box d-flex align-items-center text-decoration-none" link="blank">
-                        <div class="app-logo mr-3 h-auto">
-                            <img src="./public/assets/logo.svg" alt="" srcset="">
-                        </div>
-                        <div class="app-name navbar-image m-0 text-2xl font-semibold">
-                            <span>Smart School</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="navbar-right-box d-flex align-items-center bg-gray-800">
-                    <button type="button" class="notification cursor-pointer p-2 color-gray-500 rounded-lg">
-                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z"></path>
-                        </svg>
-                    </button>
-                    <button type="button" class="setting cursor-pointer p-2 color-gray-500 rounded-lg">
-                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path>
-                        </svg>
-                    </button>
-                    <button type="button" class="cursor-pointer p-2 color-gray-500 rounded-lg">
-                        <svg id="theme-toggle-dark-icon" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
-                        </svg>
-                        <svg id="theme-toggle-light-icon" class="w-6 h-6 d-none " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path>
-                        </svg>
-                    </button>
-                    <div class="user-profile navbar-image cursor-pointer ml-4 rounded-lg">
-                        <img class="border-radius-50" src="./public/assets/dummy-profile.jpg" alt="" srcset="">
-                    </div>
-                </div>
+    <link rel="stylesheet" href="./public/css/style.css" />
+    <link rel="stylesheet" href="./public/css/rootclass.css" />
+  </head>
+  <body>
+    <!-- NAVBAR COMPONENT -->
+    <nav class="navbar fixed w-full z-4 bg-gray-800 color-gray-100 border-bottom-gray-700" id="navbar">
+      <div class="px-4 py-3">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="navbar-left-box">
+            <div class="sidebar-btn"></div>
+            <a class="app-box d-flex align-items-center text-decoration-none" link="blank">
+              <div class="app-logo mr-3 h-auto">
+                <img src="./public/assets/logo.svg" alt="" srcset="" />
+              </div>
+              <div class="app-name navbar-image m-0 text-2xl font-semibold">
+                <span>Smart School</span>
+              </div>
+            </a>
+          </div>
+          <div class="navbar-right-box d-flex align-items-center bg-gray-800 gap-1">
+            <button type="button" class="notification cursor-pointer p-2 color-gray-500 rounded-lg">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z"></path>
+              </svg>
+            </button>
+            <button type="button" class="setting cursor-pointer p-2 color-gray-500 rounded-lg">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path>
+              </svg>
+            </button>
+            <div class="cursor-pointer d-flex justify-content-between bg-gray-500 rounded-lg theme-togler">
+              <span class="active rounded-lg p-1">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+                </svg>
+              </span>
+              <span class="rounded-lg p-1">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path>
+                </svg>
+              </span>
             </div>
+            <div class="user-profile navbar-image cursor-pointer ml-4 rounded-lg">
+              <img class="border-radius-50" src="./public/assets/dummy-profile.jpg" alt="" srcset="" />
+            </div>
+          </div>
         </div>
+      </div>
     </nav>
+    <!-- END OF NAVBAR COMPONENT -->
+
     <div class="main-view-box pt-16 d-flex flex-column overflow-hidden bg-primary-800">
-        <aside id="sidebar" class="fixed top-0 left-0 z-3 d-flex flex-column  w-64 h-full pt-16 text-normal bg-gray-800">
-            <div class="relative pt-0">
-                <div class="d-flex flex-column pt-5 pb-4 overflow-y-auto">
-                    <div class="flex-1 px-4">
-                        <ul>
-                            <li>
-                                <a href="#" class="rounded-lg d-flex align-items-center color-gray-500 text-base p-2 sidebar-menu-btn">
-                                    <svg class="w-6 h-6 icon-btn" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z"></path><path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z"></path></svg>
-                                    <span class="ml-3 color-gray-200">Dashboard</span>
-                                </a>
-                            </li>
-                        </ul>
+      <!-- SIDEBAR COMPONENT -->
+      <aside id="sidebar" class="fixed top-0 left-0 z-3 d-flex flex-column w-64 h-full pt-18 text-normal bg-gray-800">
+        <div class="relative pt-0">
+          <div class="d-flex flex-column pt-5 pb-4 overflow-y-auto">
+            <div class="flex-1 px-4">
+              <ul>
+                <li class="mb-2">
+                  <a href="#" class="rounded-lg d-flex align-items-center color-gray-500 text-base p-2 sidebar-menu-btn">
+                    <svg class="w-6 h-6 icon-btn" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z"></path>
+                      <path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z"></path>
+                    </svg>
+                    <span class="ml-3 color-gray-200">Dashboard</span>
+                  </a>
+                </li>
+
+                <li class="dropdown mb-2">
+                  <button type="button" class="w-full justify-content-between rounded-lg d-flex align-items-center color-gray-500 text-base p-2 sidebar-menu-btn">
+                    <div class="d-flex align-items-center">
+                      <svg class="w-6 h-6 icon-btn" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"></path>
+                      </svg>
+                      <span class="ml-3 color-gray-200">Layout</span>
                     </div>
-                </div>
+                    <svg class="w-6 h-6 text-right" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                    </svg>
+                  </button>
+                  <ul>
+                    <li>
+                      <a href="" class="rounded-lg d-flex align-items-center color-gray-200 text-base p-2 pl-11 sidebar-menu-btn">Menu 1</a>
+                    </li>
+                    <li>
+                      <a href="" class="rounded-lg d-flex align-items-center color-gray-200 text-base p-2 pl-11 sidebar-menu-btn">Menu 2</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="dropdown mb-2">
+                  <button type="button" class="w-full justify-content-between rounded-lg d-flex align-items-center color-gray-500 text-base p-2 sidebar-menu-btn">
+                    <div class="d-flex align-items-center">
+                      <svg class="w-6 h-6 icon-btn" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path clip-rule="evenodd" fill-rule="evenodd" d="M.99 5.24A2.25 2.25 0 013.25 3h13.5A2.25 2.25 0 0119 5.25l.01 9.5A2.25 2.25 0 0116.76 17H3.26A2.267 2.267 0 011 14.74l-.01-9.5zm8.26 9.52v-.625a.75.75 0 00-.75-.75H3.25a.75.75 0 00-.75.75v.615c0 .414.336.75.75.75h5.373a.75.75 0 00.627-.74zm1.5 0a.75.75 0 00.627.74h5.373a.75.75 0 00.75-.75v-.615a.75.75 0 00-.75-.75H11.5a.75.75 0 00-.75.75v.625zm6.75-3.63v-.625a.75.75 0 00-.75-.75H11.5a.75.75 0 00-.75.75v.625c0 .414.336.75.75.75h5.25a.75.75 0 00.75-.75zm-8.25 0v-.625a.75.75 0 00-.75-.75H3.25a.75.75 0 00-.75.75v.625c0 .414.336.75.75.75H8.5a.75.75 0 00.75-.75zM17.5 7.5v-.625a.75.75 0 00-.75-.75H11.5a.75.75 0 00-.75.75V7.5c0 .414.336.75.75.75h5.25a.75.75 0 00.75-.75zm-8.25 0v-.625a.75.75 0 00-.75-.75H3.25a.75.75 0 00-.75.75V7.5c0 .414.336.75.75.75H8.5a.75.75 0 00.75-.75z"></path>
+                      </svg>
+                      <span class="ml-3 color-gray-200">Dropdown</span>
+                    </div>
+                    <svg class="w-6 h-6 text-right" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                    </svg>
+                  </button>
+                  <ul>
+                    <li>
+                      <a href="" class="rounded-lg d-flex align-items-center color-gray-200 text-base p-2 pl-11 sidebar-menu-btn">Menu 1</a>
+                    </li>
+                    <li>
+                      <a href="" class="rounded-lg d-flex align-items-center color-gray-200 text-base p-2 pl-11 sidebar-menu-btn">Menu 2</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="mb-2">
+                  <a href="#" class="rounded-lg d-flex align-items-center color-gray-500 text-base p-2 sidebar-menu-btn">
+                    <svg class="w-6 h-6 icon-btn" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                      <path clip-rule="evenodd" fill-rule="evenodd" d="M8.34 1.804A1 1 0 019.32 1h1.36a1 1 0 01.98.804l.295 1.473c.497.144.971.342 1.416.587l1.25-.834a1 1 0 011.262.125l.962.962a1 1 0 01.125 1.262l-.834 1.25c.245.445.443.919.587 1.416l1.473.294a1 1 0 01.804.98v1.361a1 1 0 01-.804.98l-1.473.295a6.95 6.95 0 01-.587 1.416l.834 1.25a1 1 0 01-.125 1.262l-.962.962a1 1 0 01-1.262.125l-1.25-.834a6.953 6.953 0 01-1.416.587l-.294 1.473a1 1 0 01-.98.804H9.32a1 1 0 01-.98-.804l-.295-1.473a6.957 6.957 0 01-1.416-.587l-1.25.834a1 1 0 01-1.262-.125l-.962-.962a1 1 0 01-.125-1.262l.834-1.25a6.957 6.957 0 01-.587-1.416l-1.473-.294A1 1 0 011 10.68V9.32a1 1 0 01.804-.98l1.473-.295c.144-.497.342-.971.587-1.416l-.834-1.25a1 1 0 01.125-1.262l.962-.962A1 1 0 015.38 3.03l1.25.834a6.957 6.957 0 011.416-.587l.294-1.473zM13 10a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                    </svg>
+                    <span class="ml-3 color-gray-200">Setting</span>
+                  </a>
+                </li>
+              </ul>
             </div>
-        </aside>
-        <div id="mainContent" class="main-content"></div>
+          </div>
+        </div>
+      </aside>
+      <!-- END OF SIDEBAR COMPONENT -->
+
+      <!-- MAIN CONTENT COMPONENT -->
+      <div id="mainContent" class="main-content"></div>
+      <!-- END OF MAIN CONTENT COMPONENT -->
     </div>
+    <script>
+      // dropdown display script
+      document.addEventListener("DOMContentLoaded", function () {
+        var dropdownContainers = document.querySelectorAll(".dropdown");
+
+        dropdownContainers.forEach(function (container) {
+          var dropdownButton = container.querySelector("button");
+
+          dropdownButton.addEventListener("click", function () {
+            // Toggle 'active' class on the container
+            container.classList.toggle("active");
+          });
+        });
+      });
+
+      // Light and dark mode function
+      const themeTogler = document.querySelector(".theme-togler");
+      console.log(themeTogler);
+      const darkMode = themeTogler.querySelector(".active");
+      console.log(darkMode);
+      const lightMode = themeTogler.querySelector("span:not(.active)");
+      console.log(lightMode);
+
+      // Fungsi untuk mengubah tema
+      function toggleTheme() {
+        darkMode.classList.toggle("active");
+        lightMode.classList.toggle("active");
+
+        // Cek apakah tema saat ini adalah tema terang atau gelap
+        const isDarkTheme = darkMode.classList.contains("active");
+
+        // Mengubah nilai warna sesuai dengan tema yang aktif
+        if (isDarkTheme) {
+          // Mengubah seluruh kelas 'light-mode' menjadi 'dark-mode'
+          document.querySelectorAll(".light-mode").forEach((element) => {
+            element.classList.remove("light-mode");
+            element.classList.add("dark-mode");
+          });
+
+          localStorage.setItem("theme", "dark");
+        } else {
+          // Mengubah seluruh kelas 'dark-mode' menjadi 'light-mode'
+          document.querySelectorAll(".dark-mode").forEach((element) => {
+            element.classList.remove("dark-mode");
+            element.classList.add("light-mode");
+          });
+
+          localStorage.setItem("theme", "light");
+        }
+      }
+
+      // Tambahkan event listener untuk menjalankan fungsi toggleTheme saat elemen moonSpan diklik
+      lightMode.addEventListener("click", toggleTheme);
+      darkMode.addEventListener("click", toggleTheme);
+
+      // Cek apakah tema sudah disimpan di local storage
+      const theme = localStorage.getItem("theme");
+
+      // Jika tema sudah disimpan, ubah tema sesuai dengan tema yang disimpan di local storage
+      if (theme === "light") {
+        lightMode.click();
+      }
+    </script>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>

@@ -2340,6 +2340,7 @@
 .flex-1 {
     flex: 1 1 0%;
 }
+
 .d-grid {
     display: grid;
 }
@@ -2356,6 +2357,9 @@
     display: none;
 }
 
+.gap-1 {
+    gap: 0.25rem;
+}
 
 /* R00T Flex Direction */
 
@@ -3542,6 +3546,14 @@
 
 .pt-16 {
     padding-top: 4rem;
+}
+
+.pt-17 {
+    padding-top: 4.25rem;
+}
+
+.pt-18 {
+    padding-top: 4.5rem;
 }
 
 .pl-1 {
