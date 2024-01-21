@@ -24,6 +24,7 @@ body {
     font-size: 0.88rem;
     user-select: none;
     overflow-x: hidden;
+    color: var(--neutral-100);
 }
 
 ::-webkit-scrollbar {
@@ -100,4 +101,9 @@ body {
 
 .theme-togler .active {
     background-color: var(--blue-500);
+}
+
+a {
+    text-decoration: none;
+    color: var(--gray-500);
 }
