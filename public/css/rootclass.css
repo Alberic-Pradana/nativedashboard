@@ -4873,6 +4873,250 @@
 }
 
 /* ROOT CLASS LIGHT COLOR */
+.light-mode .color-white {
+    color: rgb(0 0 0);
+}	
+
+.light-mode .color-black {
+    color: rgb(255 255 255);
+}	
+
+.light-mode .color-slate-950 {
+    color: var(--slate-50);
+}	
+
+.light-mode .color-slate-900 {
+    color: var(--slate-100);
+}	
+
+.light-mode .color-slate-800 {
+    color: var(--slate-200);
+}	
+
+.light-mode .color-slate-700 {
+    color: var(--slate-300);
+}	
+
+.light-mode .color-slate-600 {
+    color: var(--slate-400);
+}	
+
+.light-mode .color-slate-400 {
+    color: var(--slate-600);
+}	
+
+.light-mode .color-slate-300 {
+    color: var(--slate-700);
+}	
+
+.light-mode .color-slate-200 {
+    color: var(--slate-800);
+}	
+
+.light-mode .color-slate-100 {
+    color: var(--slate-900);
+}	
+
+.light-mode .color-slate-50 {
+    color: var(--slate-950);
+}
+
+.light-mode .color-gray-950 {
+    color: var(--gray-50);
+}
+
+.light-mode .color-gray-900 {
+    color: var(--gray-100);
+}
+
+.light-mode .color-gray-800 {
+    color: var(--gray-200);
+}
+
+.light-mode .color-gray-700 {
+    color: var(--gray-300);
+}
+
+.light-mode .color-gray-600 {
+    color: var(--gray-400);
+}
+
+.light-mode .color-gray-400 {
+    color: var(--gray-600);
+}
+
+.light-mode .color-gray-300 {
+    color: var(--gray-700);
+}
+
+.light-mode .color-gray-200 {
+    color: var(--gray-800);
+}
+
+.light-mode .color-gray-100 {
+    color: var(--gray-900);
+}
+
+.light-mode .color-gray-50 {
+    color: var(--gray-950);
+}
+
+.light-mode .color-zinc-950 {
+    color: var(--zinc-50);
+}	
+
+.light-mode .color-zinc-900 {
+    color: var(--zinc-100);
+}	
+
+.light-mode .color-zinc-800 {
+    color: var(--zinc-200);
+}	
+
+.light-mode .color-zinc-700 {
+    color: var(--zinc-300);
+}	
+
+.light-mode .color-zinc-600 {
+    color: var(--zinc-400);
+}	
+
+.light-mode .color-zinc-400 {
+    color: var(--zinc-600);
+}	
+
+.light-mode .color-zinc-300 {
+    color: var(--zinc-700);
+}	
+
+.light-mode .color-zinc-200 {
+    color: var(--zinc-800);
+}	
+
+.light-mode .color-zinc-100 {
+    color: var(--zinc-900);
+}	
+
+.light-mode .color-zinc-50 {
+    color: var(--zinc-950);
+}	
+
+.light-mode .color-neutral-950 {
+    color: var(--neutral-50);
+}	
+
+.light-mode .color-neutral-900 {
+    color: var(--neutral-100);
+}	
+
+.light-mode .color-neutral-800 {
+    color: var(--neutral-200);
+}	
+
+.light-mode .color-neutral-700 {
+    color: var(--neutral-300);
+}	
+
+.light-mode .color-neutral-600 {
+    color: var(--neutral-400);
+}	
+
+.light-mode .color-neutral-400 {
+    color: var(--neutral-600);
+}	
+
+.light-mode .color-neutral-300 {
+    color: var(--neutral-700);
+}	
+
+.light-mode .color-neutral-200 {
+    color: var(--neutral-800);
+}	
+
+.light-mode .color-neutral-100 {
+    color: var(--neutral-900);
+}	
+
+.light-mode .color-neutral-50 {
+    color: var(--neutral-950);
+}
+
+.light-mode .color-green-950 {
+    color: var(--green-50);
+}
+
+.light-mode .color-green-900 {
+    color: var(--green-100);
+}
+
+.light-mode .color-green-800 {
+    color: var(--green-200);
+}
+
+.light-mode .color-green-700 {
+    color: var(--green-300);
+}
+
+.light-mode .color-green-600 {
+    color: var(--green-400);
+}
+
+.light-mode .color-green-400 {
+    color: var(--green-600);
+}
+
+.light-mode .color-green-300 {
+    color: var(--green-700);
+}
+
+.light-mode .color-green-200 {
+    color: var(--green-800);
+}
+
+.light-mode .color-green-100 {
+    color: var(--green-900);
+}
+
+.light-mode .color-green-50 {
+    color: var(--green-950);
+}
+
+.light-mode .color-red-950 {
+    color: var(--red-50);
+}
+
+.light-mode .color-red-900 {
+    color: var(--red-100);
+}
+
+.light-mode .color-red-800 {
+    color: var(--red-200);
+}
+
+.light-mode .color-red-700 {
+    color: var(--red-300);
+}
+
+.light-mode .color-red-600 {
+    color: var(--red-400);
+}
+
+.light-mode .color-red-400 {
+    color: var(--red-600);
+}
+
+.light-mode .color-red-300 {
+    color: var(--red-700);
+}
+
+.light-mode .color-red-200 {
+    color: var(--red-800);
+}
+
+.light-mode .color-red-100 {
+    color: var(--red-900);
+}
+
 .light-mode .color-stone-950 {
     color: var(--stone-50);
 }	

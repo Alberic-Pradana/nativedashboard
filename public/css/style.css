@@ -188,6 +188,10 @@ body {
     border-bottom: 1px solid rgb(55 65 81);
 }
 
+.light-mode .border-bottom-gray-700 {
+    border-bottom: 1px solid rgb(209 213 219);
+}
+
 .theme-togler .active {
     background-color: var(--blue-500);
 }
