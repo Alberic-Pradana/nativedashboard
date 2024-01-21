@@ -27,8 +27,23 @@ body {
     color: var(--neutral-100);
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     display: none;
+} */
+
+#sidebar::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+#sidebar::-webkit-scrollbar-track { 
+    border-radius: 10px;
+}
+
+/* Handle */
+#sidebar::-webkit-scrollbar-thumb {
+    background: var(--gray-500); 
+    border-radius: 10px;
 }
 
 .navbar-left-box {

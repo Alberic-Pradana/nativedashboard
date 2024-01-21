@@ -407,6 +407,29 @@
     position: sticky;
 }
 
+.overflow-y-auto {
+    overflow-y: auto;
+}
+
+.overflow-x-auto {
+    overflow-x: auto;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.overflow-y-hidden {
+    overflow: hidden;
+}
+
+.overflow-x-hidden {
+    overflow: hidden;
+}
 
 /* ROOT Class Top, Botom, Left, Right */
 
