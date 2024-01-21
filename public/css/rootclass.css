@@ -1980,6 +1980,11 @@
     margin-left: 4rem;
 }
 
+
+.ml-64 {
+    margin-left: 16rem;
+}
+
 /* ROOT Class Border Radius */
 .border-radius-0 {
     border-radius: 0;
